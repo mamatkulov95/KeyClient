@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Key Client</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <img
+          class="company-logo"
+          src="./photos/key-client.png"
+          alt="company-logo"
+        />
+        <div class="left-nav"></div>
+      </nav>
+
+      <div class="product">
+        <div class="product-photo">
+          <div class="main-photo">
+            <img
+              id="main-image"
+              src="./photos/main-cover.svg"
+              alt="Main Photo"
+            />
+          </div>
+
+          <div class="small-photos">
+            <img class="small-image" src="./photos/1-baby.svg" alt="Image 1" />
+            <img class="small-image" src="./photos/2-baby.svg" alt="Image 1" />
+            <img class="small-image" src="./photos/3-baby.svg" alt="Image 1" />
+            <img class="small-image" src="./photos/4-baby.svg" alt="Image 1" />
+            <img class="small-image" src="./photos/5-baby.svg" alt="Image 1" />
+          </div>
+        </div>
+
+        <div class="product-content">
+          <h1 class="content-title">Пижама для девочек</h1>
+          <p class="product-id">Арт. 02765/46</p>
+          <div class="product-feedback">
+            <p>Отзывы</p>
+            <img src="./photos/rating.svg" alt="Image 1" />
+            <p>14 отзывов</p>
+            <img src="./photos/row.svg" alt="Image 1" />
+          </div>
+
+          <div class="product-price">
+            <div class="price-list">
+              <h1>800 ₽</h1>
+              <s>1 500 ₽</s>
+              <img src="./photos/row.svg" alt="Image 1" />
+            </div>
+
+            <div class="discount">
+              <div class="discount-rate">скидка -47%</div>
+              <div class="discount-rate">акция -20%</div>
+            </div>
+
+            <select class="size-select">
+              <option selected disabled>Выбрать размер</option>
+              <option value="option1">L</option>
+              <option value="option2">XL</option>
+              <option value="option3">XXL</option>
+              <option value="option4">L</option>
+            </select>
+
+            <p class="size-title">Определить размер</p>
+
+            <div class="product-buy">
+              <div class="product-buy-click">
+                <div class="product-counter-increment product-counter">+</div>
+                <div class="product-counter-value product-counter1">1</div>
+                 <div class="product-counter-decrement product-counter">-</div>
+              </div>
+
+              <div class="korzinka">
+                <button class="korzinka-btn">Добавить в корзину</button>
+                <div class="loved-btn">
+                  <img src="./photos/loved.svg" alt="loved" />
+                </div>
+              </div>
+
+            </div>
+          <button class="buy-btn">Купить в 1 клик</button>
+
+          <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="modal-close">&times;</span>
+              <h2 class="modal-title">Заказ в 1 клик</h2>
+              <input type="text" class="modal-input" placeholder="Введите номер телефона" />
+              <input type="text" class="modal-input" placeholder="Введите имя" />
+              <p class="modal-terms">Принимаю <a href="#">условия использования</a>.</p>
+              <button class="modal-submit">Отправить</button>
+            </div>
+          </div>
+          
+
+            <div class="border"></div>
+
+            <div class="product-extra-information">
+              <div class="extra-information-item">
+                <img src="./photos/icon-opisaniya.svg" alt="Image 1" />
+                <a class="link">Описание товара</a>
+              </div>
+
+              <div class="extra-information-item">
+                <img src="./photos/clock-icon.svg" alt="Image 1" />
+                <a class="link">Доставка и возврат</a>
+              </div>
+
+              <div class="extra-information-item">
+                <img src="./photos/pay-icon.svg" alt="Image 1" />
+                <a class="link">Способы оплаты</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer-menu-title">
+          <p class="footer-menu">Покупателям</pз>
+          <p class="link">Каталог</p>
+          <p class="link">Акции</p>
+          <p class="link">Бренды</p>
+        </div>
+
+        <div class="footer-menu-title">
+          <p class="footer-menu">О Нас</p>
+          <p class="link">О компании</p>
+          <p class="link">Новости</p>
+          <p class="link">Команда</p>
+        </div>
+
+        <div class="footer-menu-right">
+          <p class="footer-menu">Узнайте первыми о новинках и акциях</p>
+          <input class="footer-menu-input" placeholder="enter your e-mail" />
+          <button class="subscribe-btn">Подписаться</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
